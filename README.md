@@ -26,12 +26,14 @@ public/js/services/bank-service.js
  * Create a server.js file that serves the static files found in the "public" folder. Hint: `app.use(express.static(__dirname+'/public'));`
 
 Verify that it's working by running your script, `node server.js` and opening the page in the browser, e.g. http://localhost:8080
+// DONE
 
 ##Step 2: Set up back end
 
 * In server.js, create an endpoint that responds to a GET request on the `/interest_rate` route
 * The interest_rate route should return a random number between 1 and 20, with two decimal places.
 * Test your endpoint using Postman to make sure it returns the interest rate in a JSON object
+// DONE
 
 ##Step 3: Connect front end to back end
 
